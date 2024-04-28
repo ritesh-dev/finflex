@@ -61,7 +61,9 @@ class EnsureUserRoleIsAllowedToAccess
                 'branchmanager.expense',
                 'branchmanager.expensereport',
                 'branchmanager.cdsreport',
-                'branchmanager.cdspdf'
+                'branchmanager.cdspdf',
+                'admin.manageCenter',
+                'admin.manageCenterManager'
             ],
             'CM' => [
                 'dashboard',

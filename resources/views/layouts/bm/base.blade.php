@@ -139,6 +139,11 @@
                                 <li><a href="{{ route('branchmanager.listclients') }}">List all</a></li>
                             </ul>
                         </li>
+                        <li class="">
+                            <a href="{{ route('admin.manageCenter') }}">
+                                <i class="fa fa-industry mr-2"></i> Centers
+                            </a>
+                        </li>
                         <li><a href="{{ route('branchmanager.expense') }}">Expenses</a>
                         </li>
                         <li><a href="{{ route('branchmanager.dailycashpositionreport') }}">Daily CPR (Closing)</a>
